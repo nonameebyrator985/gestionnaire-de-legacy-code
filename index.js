@@ -2,9 +2,13 @@ const { analyserCode, recommanderRefactorisations, genererDocumentation } = requ
 
 const main = async () => {
     console.log('Starting the legacy code manager...');
-    await analyserCode();
-    await recommanderRefactorisations();
-    await genererDocumentation();
+    try {
+        await analyserCode();
+        await recommanderRefactorisations();
+        await genererDocumentation();
+    } catch (error) {
+        console.error('An error occurred during the process:', error);
+    }
     console.log('End of analysis.');
 };
 
