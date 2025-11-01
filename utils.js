@@ -4,12 +4,12 @@ const analyserCode = async () => {
 };
 
 const recommanderRefactorisations = async () => {
-    console.log('Recherche de refactorisations nécessaires...');
+    console.log('Recherche des refactorisations nécessaires...');
     // Logique pour suggérer des refactorisations
 };
 
 const genererDocumentation = async () => {
-    console.log('Génération de documentation...');
+    console.log('Génération de la documentation...');
     // Logique pour générer de la documentation
 };
 
