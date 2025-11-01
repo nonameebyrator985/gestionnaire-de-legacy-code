@@ -4,7 +4,7 @@ const analyserCode = async () => {
 };
 
 const recommanderRefactorisations = async () => {
-    console.log('Recherche des refactorisations nécessaires...');
+    console.log('Recherche de refactorisations nécessaires...');
     // Logique pour suggérer des refactorisations
 };
 
