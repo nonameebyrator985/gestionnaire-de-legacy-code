@@ -1,11 +1,11 @@
 const { analyserCode, recommanderRefactorisations, genererDocumentation } = require('./utils');
 
 const main = async () => {
-    console.log('Démarrage du gestionnaire de legacy code...');
+    console.log('Starting the legacy code manager...');
     await analyserCode();
     await recommanderRefactorisations();
     await genererDocumentation();
-    console.log('Fin de l’analyse.');
+    console.log('End of analysis.');
 };
 
 main();
