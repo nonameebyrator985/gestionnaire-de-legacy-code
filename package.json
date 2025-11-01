@@ -1,0 +1,12 @@
+{
+  "name": "gestionnaire-de-legacy-code",
+  "version": "1.0.0",
+  "description": "Outil de gestion de code hérité",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
